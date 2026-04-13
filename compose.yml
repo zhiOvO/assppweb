@@ -9,7 +9,7 @@ services:
       - DATA_DIR=/data
       - PORT=8080
       # - DOWNLOAD_THREADS=8
-      # - ACCESS_PASSWORD=BD@zdX4w%4C6
+      # - ACCESS_PASSWORD=your_secret_password
     restart: unless-stopped
     logging:
       driver: "json-file"
